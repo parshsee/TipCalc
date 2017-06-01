@@ -32,19 +32,17 @@
         android:layout_alignEnd="@+id/editText2"
         android:layout_alignStart="@+id/editText2"
         android:layout_below="@+id/editText2"
-        android:layout_marginBottom="130dp"
         android:layout_marginTop="37dp"
         android:text="Total" />
 
-    <EditText
-        android:id="@+id/editText4"
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/textView4"
-        android:layout_alignTop="@+id/textView4"
-        android:layout_marginTop="105dp"
-        android:ems="10"
-        android:inputType="number"
-        android:text="Price" />
+        android:layout_marginBottom="57dp"
+        android:layout_alignEnd="@+id/textView4" />
 
 </RelativeLayout>
